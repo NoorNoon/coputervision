@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.idea/
+
+# SoccerNet dataset
+data/downloads/
+data/extracted/
+data/raw/
+
+# Generated results
+outputs/
+runs/
+
+# Model weights and large files
+*.pt
+*.pth
+*.onnx
+*.zip
+*.mp4
+*.avi
+
+# Temporary files and secrets
+.cache/
+.env
+.env.*
